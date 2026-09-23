@@ -56,7 +56,7 @@ img {
     gap: 20px; 
     width: 60%; 
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 .howcani {
@@ -90,6 +90,7 @@ img {
 
    .flex-block {
         width: 90%;
+        flex-wrap: wrap;
     }
 
     .howcani {
