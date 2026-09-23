@@ -56,6 +56,19 @@ img {
     gap: 20px; 
     width: 60%; 
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.howcani {
+    flex-basis: 50%;
+    height: auto;
+}
+
+.liberty1 {
+    flex-basis: 10%;
+}
+.liberty2 {
+    flex-basis: 10%;
 }
 
 @media (max-width: 768px) {
@@ -75,7 +88,12 @@ img {
         width: 60%;
     }
 
-    .flex-block {
-        flex-direction: column;
+   .flex-block {
+        width: 90%;
     }
+
+    .howcani {
+        width: 80%;
+    }
+
 }
