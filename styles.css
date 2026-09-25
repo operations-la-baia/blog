@@ -53,10 +53,9 @@ body {
 
 .container .getbig {
     transform-origin: center center;
-    /* transform: scale(1.5); */
-    font-size: 10px;
-    color: blue;
-    font-family: 'babel_sans';
+    transform: scale(1.5);
+    font-size: 30px;
+    font-family: 'RawNotice';
     z-index: 2;
     pointer-events: auto;
     opacity: 100;
