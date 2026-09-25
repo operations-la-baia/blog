@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightcyan;
+    background-color: white;
 }
 
 .title {
@@ -71,6 +71,30 @@ img {
     flex-basis: 10%;
 }
 
+.absolute-block {
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    font-family: "babel_sans";
+}
+
+.garments {
+    position: absolute;
+    left: 900px;
+    width: 190px;
+    font-size: 14px;
+    top: 10px;
+}
+
+.vest {
+    position: relative;
+    left: 35%;
+}
+
+.signs {
+
+}
+
 @media (max-width: 768px) {
     p, ul {
         width: 90%;
@@ -86,6 +110,22 @@ img {
 
     img {
         width: 60%;
+    }
+
+    .absolute-block {
+        width: 90%;
+    }
+
+    .garments {
+
+    }
+
+    .vest {
+
+    }
+
+    .signs {
+        
     }
 
    .flex-block {

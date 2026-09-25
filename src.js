@@ -25,7 +25,7 @@ if (! isMobile.matches) {
 
       // Attach the mouseleave listener
       span.addEventListener('pointerleave', () => {
-          span.classList.remove("getbig");
+          // span.classList.remove("getbig");
       });
 
       // Append the newly created character span back to the container

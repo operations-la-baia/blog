@@ -41,6 +41,8 @@ body {
     line-height: 0.5rem;
     z-index: 2; 
     pointer-events: auto;
+    letter-spacing: 50px;
+
 }
 
 .container .normal {
@@ -51,8 +53,10 @@ body {
 
 .container .getbig {
     transform-origin: center center;
-    transform: scale(1.5);
-    font-family: 'RawNotice';
+    /* transform: scale(1.5); */
+    font-size: 10px;
+    color: blue;
+    font-family: 'babel_sans';
     z-index: 2;
     pointer-events: auto;
     opacity: 100;
